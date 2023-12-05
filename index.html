@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6d9a7214cc.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="nav">
+              <h1 class="logo">Manoj Modhale</h1>
+             <ul id="sidemenu">
+               <li><a href="#">Home</a></li>
+               <li><a href="#about">About</a></li>
+               
+               <li><a href="#My-Projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa-solid fa-xmark " onclick="closemenu()"></i>
+             </ul>
+             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header">
+
+            <div class="header-text">
+                <h3>Hello,It's Me</h3>
+                <h1> <span>Manoj Modhale</span>  </h1>
+                <h2>And I'm a <span class="multiple-text"></span></h2><br>
+                Skilled in Java , Spring Boot, Angular & Web Development | Front-end & Full Stack Enthusiast <br>
+                I have finished  B.sc in Computer Science at Yashwantrao Mohite college in 2023
+            </div>
+            <div class="image">
+                <img src="myphoto1.webp" alt="">
+            </div>
+            </div>
+            <a href="#nav"  class="btn btn-danger arrow"><i class="fa-solid fa-arrow-up"></i></a>
+
+        </div>
+    </div>
+    <div id="about">
+        
+            <div class="row">
+               
+                <div class=" col-7 ">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="about-me p-4">My name is Manoj Modhale. I graduated from Bharati Vidyapeeth . Now, I am looking for my 
+                        first full-time job. The world is changing rapidly, and I don’t have enough professional experience to be 
+                        certain about such things. However, I know that I can provide a fresh take and an extraordinary approach to 
+                        every project. I am always open to challenges and constructive feedback. I am open-minded and learn new things 
+                        quickly. I want to become a team player and dedicate all my skills and talents to develop high-quality and
+                         unique products..</p>
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul class="skills">
+                            <li><button class="btn btn-outline-dark skillbtn">C</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">HTML</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">CSS</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">JavaScript</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">Java</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">Spring</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">Hibernate</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">SpringBoot</button></li>
+                            <li><button class="btn btn-outline-dark skillbtn">Angular</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>2017</span> <br>Completed <u>SSC</u> from Hiraman Bankar School with 77.28 percentage</li>
+                            <li><span>2020</span> <br>Completed <u>HSC</u> from Vishwakarma college of arts, commerce and science with 58.40 percentage</li>
+                            <li><span>2023</span><br> Completed <u>B.Sc.Computer Science</u> from Bharati vidyapeeth with 8.83 cgpa</li>
+                            <li><span>Online</span><br>I have done <u>Digital Marketing Certification Course</u> from NIIT Foundation.</li>
+                            <li><span>2023</span><br> Completed <u>Java Full Stack Developement Course</u> from Seed Infotech Institute with A Grade</li>
+                        </ul>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="My-Projects">
+      
+        <div class="row projects">
+            <h1 class="text-center mt-4 title">My Projects</h1>
+               
+            <div class="project col-3">
+                <div class="pro-desc">
+                  <img src="library.jfif" class="img"  alt="">
+               <h5 class="text-center pro-title">Library Management System</h3>
+               <p class="description">A library management system is software that is designed to manage all the functions of a library. </p>
+</h5></div>
+            </div>
+            <div class="project col-3">
+                <div class="pro-desc">
+                <img src="medicine.jfif" class="img" alt="">
+                <h5 class="text-center pro-title">Online BookStore</h3>
+                    <p class="description-md">An online book delivery system is an online based web application that operates over the Internet and sends orders to customers  </p>
+            </div>
+            </div>
+            <div class="project col-3">
+                <div class="pro-desc">
+                <img src="news.jpg" class="img" alt="">
+                <h5 class="text-center pro-title-news">News Website</h3>
+                    <p class="description-md">An  mews websote is an online based web application that operates over the Internet and show news to readers  </p>
+            </div>
+            </div>
+        </div>
+            <div id="contact">
+                <div class="container">
+                    <div class="contact">
+                        <div class="contact-left">
+                          <h1 class="sub-title">Contact Me</h1>
+                          <p><i class="fa-solid fa-paper-plane"></i>manojmodhale2001@gmail.com</p>
+                          <p><i class="fa-solid fa-square-phone"></i>9011541173</p>
+                          <div class="social-icons">
+                          <a href=""><i class="fa-brands fa-facebook"></i></a>
+                          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                          <a href=""><i class="fa-brands fa-instagram"></i></a>
+                          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                           
+                          </div>
+                          <a href="Manoj Resume 2023.pdf" download class="btn btn-outline-danger btn2">Download Cv</a>
+                        </div>
+                        <div class="contact-right">
+                               <form action="">
+                                <input type="text" name="Name" id="" placeholder="Your name" required>
+                                <input type="email" name="email" id="" placeholder="enter email" required>
+                                  <textarea name="message" id=""  rows="6" placeholder="your message"></textarea>
+                                  <button type="submit" class="btn btn-outline-danger btn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <div class="copyright">
+            <p>copyright  © manoj modhale</p>
+           </div>
+
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.left="350px";
+        }
+        function closemenu(){
+            sidemenu.style.left="-250px";
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://kit.fontawesome.com/6d9a7214cc.js" crossorigin="anonymous"></script>	
+
+<script src="script.js"></script>
+</body>
+</html>
